@@ -1,62 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Privacy Policy</title>
-<style>
-body{
-    font-family:Arial,sans-serif;
-    max-width:900px;
-    margin:auto;
-    padding:40px;
-    line-height:1.7;
-}
-h1,h2{color:#1976d2;}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Phone Dealer Tycoon Online</title>
+  <style>
+    :root {
+      --bg: #07111f;
+      --card: #0f1d33;
+      --card2: #13243f;
+      --text: #eaf2ff;
+      --muted: #9fb2d0;
+      --accent: #f7c948;
+      --blue: #3aa0ff;
+      --border: rgba(255,255,255,.10);
+      --shadow: rgba(0,0,0,.35);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: radial-gradient(circle at top, #123b6d 0, var(--bg) 45%, #050a12 100%);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 28px 18px 60px; }
+    .hero {
+      padding: 34px 24px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(58,160,255,.18), rgba(247,201,72,.10)), rgba(15,29,51,.88);
+      box-shadow: 0 18px 50px var(--shadow);
+      overflow: hidden;
+      position: relative;
+    }
+    .hero:after {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      right: -70px;
+      top: -70px;
+      background: radial-gradient(circle, rgba(247,201,72,.25), transparent 70%);
+    }
+    .badge {
+      display: inline-block;
+      padding: 7px 12px;
+      border-radius: 999px;
+      color: #07111f;
+      background: var(--accent);
+      font-weight: 700;
+      font-size: 13px;
+      letter-spacing: .3px;
+    }
+    h1 { margin: 18px 0 8px; font-size: clamp(30px, 5vw, 52px); line-height: 1.05; }
+    .subtitle { color: var(--muted); font-size: 17px; max-width: 760px; }
+    .meta { margin-top: 18px; color: var(--muted); font-size: 14px; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 22px; }
+    .card {
+      padding: 22px;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: rgba(15,29,51,.86);
+      box-shadow: 0 10px 30px rgba(0,0,0,.22);
+    }
+    h2 { margin: 0 0 12px; color: var(--accent); font-size: 24px; }
+    h3 { margin: 18px 0 8px; color: #cfe5ff; }
+    p { margin: 10px 0; }
+    ul { margin: 10px 0 0; padding-left: 22px; }
+    li { margin: 7px 0; }
+    a { color: #7cc3ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .notice {
+      border-left: 4px solid var(--accent);
+      background: rgba(247,201,72,.08);
+      padding: 14px 16px;
+      border-radius: 12px;
+      color: #f7e7ad;
+    }
+    .two { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .mini {
+      padding: 16px;
+      border-radius: 16px;
+      background: var(--card2);
+      border: 1px solid var(--border);
+    }
+    .support {
+      text-align: center;
+      padding: 28px 20px;
+      background: linear-gradient(135deg, rgba(58,160,255,.16), rgba(247,201,72,.12));
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 18px;
+      border-radius: 14px;
+      background: var(--blue);
+      color: white;
+      font-weight: 700;
+      box-shadow: 0 10px 24px rgba(58,160,255,.25);
+    }
+    .footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 26px; }
+    @media (max-width: 720px) {
+      .two { grid-template-columns: 1fr; }
+      .card { padding: 18px; }
+      .hero { padding: 26px 18px; }
+    }
+  </style>
 </head>
 <body>
+  <main class="wrap">
+    <section class="hero">
+      <span class="badge">Wizar Games</span>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">This Privacy Policy explains how Phone Dealer Tycoon Online handles game data, online features, advertising, support requests and user privacy.</p>
+      <p class="meta"><strong>Last updated:</strong> July 2026<br><strong>Game:</strong> Phone Dealer Tycoon Online</p>
+    </section>
 
-<h1>Privacy Policy</h1>
+    <section class="grid">
+      <article class="card">
+        <h2>1. Introduction</h2>
+        <p>Phone Dealer Tycoon Online (“the Game”, “we”, “our” or “us”) is developed and published by <strong>Wizar Games</strong>.</p>
+        <p>We respect your privacy. This policy describes what information may be collected when you use the Game, why it may be collected, how it is used, and what choices you have.</p>
+        <p>By installing or using the Game, you agree to this Privacy Policy. If you do not agree, please do not use the Game.</p>
+      </article>
 
-<p>Last updated: July 2026</p>
+      <article class="card">
+        <h2>2. Data We May Collect</h2>
+        <p>The Game may collect or process the following types of data:</p>
+        <ul>
+          <li>Game progress, level, in-game money, diamonds, inventory, cases and achievements.</li>
+          <li>Online market data, listings, trades, messages and leaderboard statistics.</li>
+          <li>Player nickname, generated player ID and in-game profile information.</li>
+          <li>Device and technical information needed for app stability and online features.</li>
+          <li>Advertising identifiers and ad interaction data through Google AdMob.</li>
+          <li>Crash, diagnostic and performance information if such tools are enabled.</li>
+        </ul>
+        <p>We do not intentionally collect sensitive personal information such as passwords, payment card details, contacts, photos, precise location or private files from your device.</p>
+      </article>
 
-<p>
-Phone Dealer Tycoon Online ("the Game") is developed by Wizar Games.
-This Privacy Policy explains what information may be collected and how it is used.
-</p>
+      <article class="card">
+        <h2>3. How We Use Data</h2>
+        <p>Data is used only for purposes connected with the Game, including:</p>
+        <ul>
+          <li>Saving and restoring your progress.</li>
+          <li>Providing online market, messaging and leaderboard features.</li>
+          <li>Preventing abuse, cheating, duplication bugs and fraudulent activity.</li>
+          <li>Showing rewarded advertisements.</li>
+          <li>Improving gameplay, performance and stability.</li>
+          <li>Responding to support requests and bug reports.</li>
+        </ul>
+      </article>
 
-<h2>Information We Collect</h2>
+      <article class="card">
+        <h2>4. Online Features</h2>
+        <p>Phone Dealer Tycoon Online includes online gameplay features. These may require communication with our game server.</p>
+        <p>Online features may include:</p>
+        <ul>
+          <li>Player profiles and nicknames.</li>
+          <li>Online phone market listings.</li>
+          <li>Buying and selling phones with other players.</li>
+          <li>Weekly leaderboards.</li>
+          <li>In-game messages related to trades and support.</li>
+        </ul>
+        <p>Online data is used to make multiplayer features work correctly and to protect the game economy from abuse.</p>
+      </article>
 
-<ul>
-<li>Game progress and profile information.</li>
-<li>Advertising identifiers used by Google AdMob.</li>
-<li>Crash reports and analytics.</li>
-</ul>
+      <article class="card">
+        <h2>5. Advertising</h2>
+        <p>The Game uses <strong>Google AdMob</strong> to show rewarded advertisements. Ads are optional and are used to provide in-game rewards after a completed ad view.</p>
+        <p>Google AdMob may collect or process data such as:</p>
+        <ul>
+          <li>Advertising ID.</li>
+          <li>IP address.</li>
+          <li>Device model and operating system information.</li>
+          <li>Language and region settings.</li>
+          <li>Ad views, clicks and interactions.</li>
+          <li>Diagnostic information related to ad delivery.</li>
+        </ul>
+        <p>Google uses this information according to its own privacy policies and advertising rules. You can learn more at <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+      </article>
 
-<h2>Advertising</h2>
+      <article class="card">
+        <h2>6. In-App Purchases</h2>
+        <p>The Game may offer optional in-app purchases, such as diamonds or other digital items. Purchases are processed by Google Play Billing.</p>
+        <p>We do not receive or store your payment card information. Payment processing is handled by Google Play according to Google’s terms and policies.</p>
+      </article>
 
-<p>
-The Game uses Google AdMob to display advertisements.
-Google may collect advertising identifiers according to its own Privacy Policy.
-</p>
+      <article class="card">
+        <h2>7. Local and Server Storage</h2>
+        <div class="two">
+          <div class="mini">
+            <h3>Local storage</h3>
+            <p>Some data may be stored locally on your device, such as settings, progress cache, game state and preferences.</p>
+          </div>
+          <div class="mini">
+            <h3>Server storage</h3>
+            <p>Some data may be stored on our server to provide online features, including market listings, profiles, messages and leaderboards.</p>
+          </div>
+        </div>
+      </article>
 
-<h2>Data Storage</h2>
+      <article class="card">
+        <h2>8. Third-Party Services</h2>
+        <p>The Game may use third-party services that process data under their own privacy policies:</p>
+        <ul>
+          <li>Google Play Services</li>
+          <li>Google Play Billing</li>
+          <li>Google AdMob</li>
+          <li>Game hosting/server providers</li>
+          <li>Telegram, when you contact support through our support bot</li>
+        </ul>
+      </article>
 
-<p>
-Game data may be stored locally on your device and on secure online servers to provide multiplayer features.
-</p>
+      <article class="card">
+        <h2>9. Support Requests</h2>
+        <p>If you contact us through the Telegram support bot, we may receive the information you choose to send, such as your message, Telegram username, user ID and any screenshots or details you provide.</p>
+        <p>This information is used only to answer your request, fix bugs and improve the Game.</p>
+      </article>
 
-<h2>Children</h2>
+      <article class="card">
+        <h2>10. Children’s Privacy</h2>
+        <p>The Game is not intended to knowingly collect personal information from children. If a parent or guardian believes that a child has provided personal information, they can contact us through the support bot and request deletion.</p>
+      </article>
 
-<p>
-The Game is not intended to collect personal information from children knowingly.
-</p>
+      <article class="card">
+        <h2>11. Data Security</h2>
+        <p>We take reasonable technical and organizational measures to protect game data and reduce unauthorized access, loss or misuse.</p>
+        <p>However, no online service can be guaranteed to be 100% secure. Users should avoid sharing sensitive personal information inside the Game or support messages.</p>
+      </article>
 
-<h2>Contact</h2>
+      <article class="card">
+        <h2>12. Data Retention</h2>
+        <p>Game data may be kept for as long as needed to provide the Game, maintain online features, prevent abuse, comply with legal obligations and improve the service.</p>
+        <p>Support messages may be kept for a reasonable period to resolve issues and improve future support.</p>
+      </article>
 
-<p>
-Telegram: https://t.me/PhoneDealerTycoon
-</p>
+      <article class="card">
+        <h2>13. Your Choices and Rights</h2>
+        <p>You may request information about your game data or request deletion of your online game profile by contacting us through the Telegram support bot.</p>
+        <p>You can also reset or remove local app data through your device settings. Removing local data may delete your local progress.</p>
+      </article>
 
+      <article class="card">
+        <h2>14. Changes to This Policy</h2>
+        <p>We may update this Privacy Policy from time to time. Any changes will be published on this page with an updated date.</p>
+        <p>Continued use of the Game after changes means you accept the updated policy.</p>
+      </article>
+
+      <article class="card support">
+        <h2>15. Contact Us</h2>
+        <p>If you have questions about privacy, data, bugs or support, contact us through our official Telegram support bot.</p>
+        <a class="btn" href="https://t.me/PhoneDealerSupportBot" target="_blank" rel="noopener">Open Telegram Support</a>
+        <p class="meta">Support Bot: https://t.me/PhoneDealerSupportBot</p>
+      </article>
+
+      <article class="card notice">
+        <strong>Note:</strong> This Privacy Policy applies only to Phone Dealer Tycoon Online and does not control the privacy practices of third-party services such as Google or Telegram.
+      </article>
+    </section>
+
+    <p class="footer">© 2026 Wizar Games. Phone Dealer Tycoon Online.</p>
+  </main>
 </body>
 </html>
